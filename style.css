@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  align-items: center;
+  background-color: white;
+  width: 400px;
+  height: 650px;
+  margin: 100px;
+  /* padding: 50px; */
+  border-radius: 10px;
+}  
+
+.illus1 img{
+    border-radius: 10px 10px 0px 0px;
+    width: 400px;
+    height: 250px;
+    padding: 0%;
+}
+
+.illus2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+} 
+
+.illus2 h1{
+    align-items: center;
+}
+
+.illus2 p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.illus2 .first{
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 50px;
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.illus2 .second{
+    margin-top: 40px;
+}
+
+.illus2 .Payment{
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    display: flex;
+}
